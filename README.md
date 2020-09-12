@@ -12,7 +12,7 @@ The design pattern in vis_processInputs involves the following:
 
 - processEach -- A nested function in vis_processInputs
 
-	This where you put your code.
+	This is where you put your code.
 	It expects a single argument that you then process.
 	
 - processArgsAndStdin -- A nested function in vis_processInputs
