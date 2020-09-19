@@ -63,7 +63,7 @@ _EOF_
     local thisFunc=${G_thisFunc}
 
     function processEach {
-	EH_assert [[ $# -gt 1 ]]
+	EH_assert [[ $# -gt 0 ]]
 	local each="$1"
 	shift
 
